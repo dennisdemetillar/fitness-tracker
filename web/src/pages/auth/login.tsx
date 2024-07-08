@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Zap } from 'lucide-react';
+import LogoHeader from '@/components/logo-header';
 
 const Login = () => {
     const [email, setEmail] = useState('');
@@ -18,14 +18,9 @@ const Login = () => {
             />
             <div className='w-[50%] mx-10 my-2'>
                 <div className='flex flex-col'>
-                    <div className='items-center justify-center flex gap-x-1'>
-                        <div className='bg-black rounded-full p-1 border border-white'>
-                            <Zap size={35} color='white' />
-                        </div>
-                        <p className='text-2xl font-bold'>FitTrack</p>
-                    </div>
+                    <LogoHeader />
                     <div className='text-center mt-10 text-lg font-extralight'>
-                        Welcome to FitTrack, your ultimate fitness companion! Track your workouts, monitor progress, and achieve your fitness goals effortlessly.
+                        Welcome back to FitTrack! Log in to continue tracking your workouts, monitoring your progress, and achieving your fitness goals effortlessly.
                     </div>
                 </div>
                 <div className='flex flex-col mt-16'>

@@ -83,3 +83,7 @@
       @apply bg-background text-foreground;
     }
   }
+
+  .glow-text {
+    text-shadow: 0 0 5px #41B06E, 0 0 5px #41B06E, 0 0 10px #41B06E, 0 0 60px #41B06E;
+  }
